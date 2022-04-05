@@ -16,7 +16,7 @@ class RandomizedSet {
     }
     
     public boolean remove(int val) {
-        list.remove(val);
+       list.remove(val);
        return map.remove(val) == PRESENT;
     }
     
