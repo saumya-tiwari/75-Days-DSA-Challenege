@@ -42,7 +42,7 @@ class BSTIterator {
     }
     
     public int next() {
-         pointer++;
+        pointer++;
         return arr.get(pointer);
     }
     
@@ -51,7 +51,7 @@ class BSTIterator {
     }
     
     public int prev() {
-          --pointer;
+         pointer--;
         return arr.get(pointer);
        
     }
